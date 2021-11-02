@@ -734,9 +734,19 @@ a {
     transition: opacity 0.5s ease-out;
 }
 
+.copyrights {
+    font-size: 1.5rem;
+}
+
 @media screen and (min-width: 770px) {
     .social-list-items {
         font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .copyrights {
+        font-size: 1.2rem;
     }
 }
 
